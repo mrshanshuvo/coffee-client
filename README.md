@@ -1,12 +1,82 @@
-# React + Vite
+# ☕ Coffee Client
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Coffee Client is a modern and responsive web application for managing coffee products. Built with **Vite** and **React**, styled using **Tailwind CSS**, authenticated via **Firebase**, connected to a **MongoDB** backend, and deployed on **Vercel** — this project provides an intuitive interface to add, edit, delete, and view coffee items.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Site
 
-## Expanding the ESLint configuration
+🌐 [Visit Coffee Client on Vercel](https://your-vercel-app.vercel.app)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> Replace with your actual deployed link.
+
+---
+
+## 📸 Screenshots
+
+| Home Page                              | Add Coffee                           | Update Coffee                              |
+| -------------------------------------- | ------------------------------------ | ------------------------------------------ |
+| ![Home](./src/assets/screens/home.png) | ![Add](./src/assets/screens/add.png) | ![Update](./src/assets/screens/update.png) |
+
+> Make sure to place your screenshots inside `src/assets/screens/`.
+
+---
+
+## 🚀 Features
+
+- 🔐 Firebase Authentication (Email/Password)
+- ➕ Add new coffee entries
+- 📝 Edit and update coffee details
+- 🗑️ Delete coffee items
+- 📋 View all coffees in a responsive grid
+- 🎨 Tailwind-based clean and modern UI
+- 🌐 Fully deployed using Vercel
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology       | Description                             |
+| ---------------- | --------------------------------------- |
+| **Vite**         | Fast development & build tool for React |
+| **React**        | JavaScript library for UI               |
+| **Tailwind CSS** | Utility-first CSS framework             |
+| **Firebase**     | Authentication (Email/Password)         |
+| **MongoDB**      | NoSQL database for backend API          |
+| **Vercel**       | Hosting & deployment platform           |
+
+---
+
+## 📁 Folder Structure
+
+coffee-client/
+├── public/
+├── src/
+│ ├── assets/ # Images, icons, logos
+│ ├── components/ # Reusable UI components
+│ ├── pages/ # Page-level components
+│ ├── App.jsx # Root component
+│ ├── main.jsx # App entry point
+│ └── index.css # Tailwind base styles
+├── .env # Environment variables
+├── tailwind.config.js # Tailwind configuration
+├── vite.config.js # Vite config
+├── package.json
+└── README.md
+
+---
+
+## 📦 Installation & Setup
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/mrshanshuvo/coffee-client.git
+cd coffee-client
+```
+
+---
+
+Would you like me to generate a **`LICENSE`** file (MIT)? Or help write a **README** for your backend repo too?
+
+Let me know!
